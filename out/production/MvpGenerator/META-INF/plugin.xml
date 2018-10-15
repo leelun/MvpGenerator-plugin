@@ -1,0 +1,46 @@
+<idea-plugin>
+  <id>com.stfalcon.mvpgenerator</id>
+  <name>MVP Generator</name>
+  <version>0.2.1</version>
+  <vendor email="krol.oleksandr@stfalcon.com" url="http://www.stfalcon.com">stfalcon.com</vendor>
+
+  <depends>org.jetbrains.android</depends>
+  <depends>org.jetbrains.plugins.gradle</depends>
+
+  <description><![CDATA[
+      Plugin which generates activities and fragments for MVP + Dagger + Rx using Kotlin (soon for Java)!
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Tiny syntax fixes
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="141.0"/>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <fileTemplateGroup implementation="com.stfalcon.mvpgenerator.FileTemplateProvider"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <group id="com.stfalcon.mvpgenerator" text="MVP" popup="true" icon="AllIcons.General.Add">
+      <add-to-group group-id="NewGroup" anchor="after" relative-to-action="NewDir"/>
+
+      <action id="com.stfalcon.mvpgenerator.CreateKotlinMvpActivityAction"
+              class="com.stfalcon.mvpgenerator.CreateKotlinMvpActivityAction"
+              text="MVP Kotlin Activity"/>
+
+      <action id="com.stfalcon.mvpgenerator.CreateKotlinMvpFragmentAction"
+              class="com.stfalcon.mvpgenerator.CreateKotlinMvpFragmentAction"
+              text="MVP Kotlin Fragment"/>
+
+      <action id="com.stfalcon.mvpgenerator.CreateKotlinDIBaseClassesAction"
+              class="com.stfalcon.mvpgenerator.CreateKotlinDIBaseClassesAction"
+              text="Kotlin base DI classes"/>
+
+    </group>
+  </actions>
+
+</idea-plugin>

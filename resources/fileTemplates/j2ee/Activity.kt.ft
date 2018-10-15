@@ -1,0 +1,12 @@
+package ${PACKAGE_NAME}
+
+import ${PROJECT_PACKAGE}.R
+import com.stfalcon.mvphelper.MvpActivity
+
+#parse("File Header.java")
+class ${ACTIVITY_NAME}Activity : MvpActivity<${ACTIVITY_NAME}ActivityContract.Presenter, ${ACTIVITY_NAME}ActivityContract.View>(),
+        ${ACTIVITY_NAME}ActivityContract.View {
+
+    override fun getLayoutResId(): Int = R.layout.${LAYOUT_NAME}
+
+}

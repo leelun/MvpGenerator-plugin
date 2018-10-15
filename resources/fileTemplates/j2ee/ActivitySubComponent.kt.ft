@@ -1,0 +1,22 @@
+package ${PACKAGE_NAME}
+
+import dagger.Subcomponent
+import dagger.android.AndroidInjector
+
+#parse("File Header.java")
+@Subcomponent(modules = arrayOf(${ACTIVITY_NAME}ActivityModule::class))
+interface ${ACTIVITY_NAME}ActivitySubComponent : AndroidInjector<${ACTIVITY_NAME}Activity> {
+
+    @Subcomponent.Builder
+    abstract class Builder : AndroidInjector.Builder<${ACTIVITY_NAME}Activity>()
+
+    //TODO REMINDER: move the line below to AppModule's @Module(...) annotation
+    //${ACTIVITY_NAME}ActivitySubComponent::class
+
+    //TODO REMINDER: move this to ActivitiesInjectorFactories module
+    @Binds
+    @IntoMap
+    @ActivityKey(${ACTIVITY_NAME}Activity::class)
+    internal abstract fun bind${ACTIVITY_NAME}ActivityInjectorFactory(
+            builder: ${ACTIVITY_NAME}ActivitySubComponent.Builder): AndroidInjector.Factory<out Activity>
+}

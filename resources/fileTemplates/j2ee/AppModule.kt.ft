@@ -1,0 +1,18 @@
+package ${PACKAGE_NAME}
+
+import android.content.Context
+import ${ROOT_NAME}.App
+import dagger.Module
+import dagger.Provides
+import javax.inject.Singleton
+
+#parse("File Header.java")
+@Module(subcomponents = arrayOf(
+//        register your activities' subcomponents here
+))
+class AppModule {
+
+    @Singleton
+    @Provides
+    internal fun provideContext(application: App): Context = application.applicationContext
+}

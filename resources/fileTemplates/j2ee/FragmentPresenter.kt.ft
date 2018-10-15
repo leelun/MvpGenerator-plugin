@@ -1,0 +1,21 @@
+package ${PACKAGE_NAME}
+
+import com.stfalcon.mvphelper.Presenter
+import javax.inject.Inject
+
+#parse("File Header.java")
+class ${FRAGMENT_NAME}FragmentPresenter @Inject constructor()
+    : Presenter<${FRAGMENT_NAME}FragmentContract.View>(), ${FRAGMENT_NAME}FragmentContract.Presenter {
+
+    override fun onViewAttached(view: ${FRAGMENT_NAME}FragmentContract.View, created: Boolean) {
+        super.onViewAttached(view, created)
+    }
+
+    override fun onViewDetached() {
+        super.onViewDetached()
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+    }
+}
