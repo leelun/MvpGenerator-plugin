@@ -18,6 +18,9 @@ import org.jetbrains.android.dom.manifest.Activity;
 import org.jetbrains.android.dom.manifest.Application;
 import org.jetbrains.android.facet.AndroidFacet;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
@@ -82,6 +85,16 @@ public class CreateKotlinMvpActivityAction extends AnAction {
         final AndroidFacet androidFacet = AndroidFacet.getInstance(module);
         final PsiManager psiManager = PsiManager.getInstance(module.getProject());
         final String projectPackage = androidFacet.getManifest().getPackage().getXmlAttributeValue().getValue();
+
+        Properties mvppPoperties=new Properties();
+        try {
+            File mvpgeneratorSetting=new File(module.getProject().getBasePath()+"/mvpgenerator.properties");
+            if(mvpgeneratorSetting.exists()){
+                mvppPoperties.load(new FileInputStream(mvpgeneratorSetting));
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
         this.createPsiClass(directory, activityName, fileTemplateManager, "Activity.kt", new HashMap<String, String>() {
             {
@@ -149,5 +162,6 @@ public class CreateKotlinMvpActivityAction extends AnAction {
         final Application application = androidFacet.getManifest().getApplication();
         final Activity activity = application.addActivity();
         activity.getActivityClass().setStringValue(activityClass);
+        activity.getExported().setStringValue("false");
     }
 }

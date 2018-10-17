@@ -1,6 +1,6 @@
 package ${PACKAGE_NAME}
 
-import com.stfalcon.mvphelper.IPresenter
+import com.common.core.mvphelper.IPresenter
 
 #parse("File Header.java")
 interface ${FRAGMENT_NAME}FragmentContract {

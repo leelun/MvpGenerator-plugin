@@ -1,7 +1,7 @@
 package ${PACKAGE_NAME}
 
 import ${PROJECT_PACKAGE}.R
-import com.stfalcon.mvphelper.MvpFragment
+import com.common.core.fragment.MvpFragment
 
 #parse("File Header.java")
 class ${FRAGMENT_NAME}Fragment : MvpFragment<${FRAGMENT_NAME}FragmentContract.Presenter, ${FRAGMENT_NAME}FragmentContract.View>(),

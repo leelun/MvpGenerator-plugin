@@ -1,6 +1,6 @@
 package ${PACKAGE_NAME}
 
-import com.stfalcon.mvphelper.Presenter
+import com.common.core.mvphelper.Presenter
 import javax.inject.Inject
 
 #parse("File Header.java")

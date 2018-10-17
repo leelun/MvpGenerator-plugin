@@ -1,15 +1,15 @@
 package ${PACKAGE_NAME}
 
-import com.stfalcon.mvphelper.IPresenter
+import com.common.core.mvphelper.IPresenter
 
 #parse("File Header.java")
 interface ${ACTIVITY_NAME}ActivityContract {
 
-    interface View {
+    interface IView {
 
     }
 
-    interface Presenter : IPresenter<View> {
+    interface Presenter : IPresenter<IView> {
 
     }
 }

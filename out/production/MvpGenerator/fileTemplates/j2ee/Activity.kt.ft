@@ -1,11 +1,11 @@
 package ${PACKAGE_NAME}
 
 import ${PROJECT_PACKAGE}.R
-import com.stfalcon.mvphelper.MvpActivity
+import gauges.mobile.github.com.mvpapplication.base.DefaultActivity
 
 #parse("File Header.java")
-class ${ACTIVITY_NAME}Activity : MvpActivity<${ACTIVITY_NAME}ActivityContract.Presenter, ${ACTIVITY_NAME}ActivityContract.View>(),
-        ${ACTIVITY_NAME}ActivityContract.View {
+class ${ACTIVITY_NAME}Activity : DefaultActivity<${ACTIVITY_NAME}ActivityContract.Presenter, ${ACTIVITY_NAME}ActivityContract.IView>(),
+        ${ACTIVITY_NAME}ActivityContract.IView {
 
     override fun getLayoutResId(): Int = R.layout.${LAYOUT_NAME}
 
