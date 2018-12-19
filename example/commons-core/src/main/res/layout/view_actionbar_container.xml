@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="?attr/actionBarStytle"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title_textview"
+        style="?attr/actionBarTitleStytle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        tools:text="sdfsdfsdfsdffsdfsdf" />
+
+    <FrameLayout
+        android:id="@+id/left_container_layout"
+        style="?attr/leftContainerStytle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:minWidth="?attr/actionBarSize"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/left_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+             />
+
+        <Button
+            android:id="@+id/left_btn"
+            style="?attr/actionBarLeftBtnStytle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/transparent" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/right_container_layout"
+        style="?attr/rightContainerStytle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="right">
+
+        <ImageButton
+            android:id="@+id/right_image_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent" />
+
+        <ImageView
+            android:id="@+id/right_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/right_btn"
+            style="?attr/actionBarRightBtnStytle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            tools:text="sdfsdf" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="actionbar_height">44dp</dimen>
+    <dimen name="searchs_height">50dp</dimen>
+
+    <dimen name="backbtn_height">34dp</dimen>
+    <dimen name="mis_space_size">2dp</dimen>
+    <dimen name="height_size">44dp</dimen>
+    <dimen name="status_bar_height">25dp</dimen>
+</resources>

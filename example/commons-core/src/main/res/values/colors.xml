@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="red">#ff0000</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#0000FF</color>
+    <color name="green">#00FF00</color>
+    <color name="title_color">#3399DB</color>
+    <color name="back_active">#f4c600</color>
+    <color name="dialog_body">#88000000</color>
+    <color name="line_divider">#bbb</color>
+    <color name="button_active">#bbb</color>
+    <color name="btn_yellow">#ffff9c00</color>
+    <color name="translucent_black_50">#f2000000</color>
+    <color name="ts333333">#333333</color>
+    <color name="ts555555">#555555</color>
+    <color name="ts333">#333</color>
+    <color name="psts_background_tab_pressed">#1AFFFFFF</color>
+    <color name="psts_background_tab_pressed_ripple">#AAFFFFFF</color>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="lineColor" format="reference|color" />
+    <attr name="lineMarginBottom" format="reference|dimension" />
+    <attr name="textSize" format="reference|dimension" />
+    <attr name="textMargin" format="reference|dimension" />
+    <attr name="textPadding" format="reference|dimension" />
+    <attr name="lineAlignText" format="reference|boolean" />
+    <attr name="lineHeight" format="dimension|reference" />
+
+    <declare-styleable name="TabPageIndicator">
+        <attr name="lineColor" />
+        <attr name="lineMarginBottom" />
+        <attr name="textSize" />
+        <attr name="textMargin" />
+        <attr name="textPadding" />
+        <attr name="lineAlignText" />
+        <attr name="lineHeight" />
+        <attr name="unSelectColor" format="reference|color" />
+        <attr name="selectColor" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="SelectIndicator">
+        <attr name="lineColor" />
+        <attr name="lineMarginBottom" />
+        <attr name="textSize" />
+        <attr name="textMargin" />
+        <attr name="textPadding" />
+        <attr name="lineAlignText" />
+        <attr name="lineHeight" />
+
+        <attr name="unIndexColor" format="reference|color" />
+        <attr name="indexColor" format="reference|color" />
+        <attr name="orientation" format="enum">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+    </declare-styleable>
+
+</resources>
