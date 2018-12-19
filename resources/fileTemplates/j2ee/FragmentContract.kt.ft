@@ -1,15 +1,15 @@
 package ${PACKAGE_NAME}
 
-import com.common.core.mvphelper.IPresenter
+import ${COMMON_PACKAGE}.IPresenter
 
 #parse("File Header.java")
 interface ${FRAGMENT_NAME}FragmentContract {
 
-    interface View {
+    interface I${FRAGMENT_NAME}View {
 
     }
 
-    interface Presenter : IPresenter<View> {
+    interface I${FRAGMENT_NAME}Presenter : IPresenter<I${FRAGMENT_NAME}View> {
 
     }
 }

@@ -1,7 +1,7 @@
 package ${PACKAGE_NAME}
 
 import android.content.Context
-import com.common.core.mvphelper.PresenterLoader
+import ${COMMON_PACKAGE}.PresenterLoader
 import dagger.Module
 import dagger.Provides
 
@@ -11,5 +11,5 @@ class ${FRAGMENT_NAME}FragmentModule {
 
     @Provides
     fun providePresenterLoader(context: Context, presenter: ${FRAGMENT_NAME}FragmentPresenter)
-            : PresenterLoader<${FRAGMENT_NAME}FragmentContract.Presenter> = PresenterLoader(context, presenter)
+            : PresenterLoader<${FRAGMENT_NAME}FragmentContract.I${FRAGMENT_NAME}Presenter> = PresenterLoader(context, presenter)
 }

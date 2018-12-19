@@ -22,7 +22,6 @@
   <extensions defaultExtensionNs="com.intellij">
     <fileTemplateGroup implementation="com.stfalcon.mvpgenerator.FileTemplateProvider"/>
   </extensions>
-
   <actions>
     <!-- Add your actions here -->
     <group id="com.stfalcon.mvpgenerator" text="MVP" popup="true" icon="AllIcons.General.Add">

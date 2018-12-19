@@ -74,31 +74,40 @@ public class CreateKotlinMvpFragmentAction extends AnAction
         final PsiManager psiManager = PsiManager.getInstance(module.getProject());
         final String projectPackage = androidFacet.getManifest().getPackage().getXmlAttributeValue().getValue();
         final FileTemplateManager fileTemplateManager = FileTemplateManager.getDefaultInstance();
+        MvpGeneratorManager.GeneratorProperties mvpProperties=MvpGeneratorManager.getInstance().getProperties(module);
+        Map<String,String> map=new HashMap<>();
+        map.put("COMMON_PACKAGE",mvpProperties.getCommonPackage());
+        map.put("MVP_FRAGMENT_PACKAGE",mvpProperties.getMvpActivityPackage());
         this.createPsiClass(directory, fragmentName, fileTemplateManager, "Fragment.kt", new HashMap<String, String>() {
             {
                 this.put("FRAGMENT_NAME", name);
                 this.put("LAYOUT_NAME", layoutName);
                 this.put("PROJECT_PACKAGE", projectPackage);
+                this.putAll(map);
             }
         });
         this.createPsiClass(directory, fragmentContractName, fileTemplateManager, "FragmentContract.kt", new HashMap<String, String>() {
             {
                 this.put("FRAGMENT_NAME", name);
+                this.putAll(map);
             }
         });
         this.createPsiClass(directory, fragmentModuleName, fileTemplateManager, "FragmentModule.kt", new HashMap<String, String>() {
             {
                 this.put("FRAGMENT_NAME", name);
+                this.putAll(map);
             }
         });
         this.createPsiClass(directory, fragmentPresenterName, fileTemplateManager, "FragmentPresenter.kt", new HashMap<String, String>() {
             {
                 this.put("FRAGMENT_NAME", name);
+                this.putAll(map);
             }
         });
         this.createPsiClass(directory, fragmentSubComponentName, fileTemplateManager, "FragmentSubComponent.kt", new HashMap<String, String>() {
             {
                 this.put("FRAGMENT_NAME", name);
+                this.putAll(map);
             }
         });
         this.createLayoutFile(name, layoutName, androidFacet, psiManager, fileTemplateManager);
@@ -129,7 +138,7 @@ public class CreateKotlinMvpFragmentAction extends AnAction
                 FileTemplateUtil.createFromTemplate(template, layoutName, props, psiManager.findDirectory(layoutFolder));
             }
             catch (Exception e) {
-                throw new RuntimeException("Unable to create layout for " + name + "Activity", e);
+                throw new RuntimeException("Unable to create layout for " + name + "Fragment", e);
             }
         }
     }

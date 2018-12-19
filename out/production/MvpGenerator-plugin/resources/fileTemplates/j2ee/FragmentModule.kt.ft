@@ -1,0 +1,15 @@
+package ${PACKAGE_NAME}
+
+import android.content.Context
+import com.common.core.mvphelper.PresenterLoader
+import dagger.Module
+import dagger.Provides
+
+#parse("File Header.java")
+@Module
+class ${FRAGMENT_NAME}FragmentModule {
+
+    @Provides
+    fun providePresenterLoader(context: Context, presenter: ${FRAGMENT_NAME}FragmentPresenter)
+            : PresenterLoader<${FRAGMENT_NAME}FragmentContract.Presenter> = PresenterLoader(context, presenter)
+}

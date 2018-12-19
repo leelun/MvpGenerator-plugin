@@ -9,7 +9,6 @@ import com.intellij.ide.fileTemplates.FileTemplateUtil;
 import com.intellij.openapi.actionSystem.*;
 import com.intellij.openapi.module.Module;
 import com.intellij.openapi.project.Project;
-import com.intellij.openapi.project.ProjectManager;
 import com.intellij.openapi.vfs.VirtualFile;
 import com.intellij.psi.PsiDirectory;
 import com.intellij.psi.PsiElement;
@@ -18,9 +17,6 @@ import org.jetbrains.android.dom.manifest.Activity;
 import org.jetbrains.android.dom.manifest.Application;
 import org.jetbrains.android.facet.AndroidFacet;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
@@ -38,11 +34,12 @@ public class CreateKotlinMvpActivityAction extends AnAction {
             return;
         }
         final DataContext dataContext = e.getDataContext();
-        final Module module = (Module) LangDataKeys.MODULE.getData(dataContext);
+        final Module module = LangDataKeys.MODULE.getData(dataContext);
         if (module == null) {
             return;
         }
-        final VirtualFile targetFile = (VirtualFile) CommonDataKeys.VIRTUAL_FILE.getData(dataContext);
+        MvpGeneratorManager.getInstance().getProperties(module);
+        final VirtualFile targetFile = CommonDataKeys.VIRTUAL_FILE.getData(dataContext);
         final PsiDirectory psiDirectory = FileUtils.validateSelectedDirectory(project, targetFile);
         if (psiDirectory == null) {
             return;
@@ -85,42 +82,40 @@ public class CreateKotlinMvpActivityAction extends AnAction {
         final AndroidFacet androidFacet = AndroidFacet.getInstance(module);
         final PsiManager psiManager = PsiManager.getInstance(module.getProject());
         final String projectPackage = androidFacet.getManifest().getPackage().getXmlAttributeValue().getValue();
-
-        Properties mvppPoperties=new Properties();
-        try {
-            File mvpgeneratorSetting=new File(module.getProject().getBasePath()+"/mvpgenerator.properties");
-            if(mvpgeneratorSetting.exists()){
-                mvppPoperties.load(new FileInputStream(mvpgeneratorSetting));
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
+        MvpGeneratorManager.GeneratorProperties mvpProperties=MvpGeneratorManager.getInstance().getProperties(module);
+        Map<String,String> map=new HashMap<>();
+        map.put("COMMON_PACKAGE",mvpProperties.getCommonPackage());
+        map.put("MVP_ACTIVITY_PACKAGE",mvpProperties.getMvpActivityPackage());
         this.createPsiClass(directory, activityName, fileTemplateManager, "Activity.kt", new HashMap<String, String>() {
             {
                 this.put("ACTIVITY_NAME", name);
                 this.put("LAYOUT_NAME", layoutName);
                 this.put("PROJECT_PACKAGE", projectPackage);
+                this.putAll(map);
             }
         });
         this.createPsiClass(directory, activityContractName, fileTemplateManager, "ActivityContract.kt", new HashMap<String, String>() {
             {
                 this.put("ACTIVITY_NAME", name);
+                this.putAll(map);
             }
         });
         this.createPsiClass(directory, activityModuleName, fileTemplateManager, "ActivityModule.kt", new HashMap<String, String>() {
             {
                 this.put("ACTIVITY_NAME", name);
+                this.putAll(map);
             }
         });
         this.createPsiClass(directory, activityPresenterName, fileTemplateManager, "ActivityPresenter.kt", new HashMap<String, String>() {
             {
                 this.put("ACTIVITY_NAME", name);
+                this.putAll(map);
             }
         });
         this.createPsiClass(directory, activitySubComponentName, fileTemplateManager, "ActivitySubComponent.kt", new HashMap<String, String>() {
             {
                 this.put("ACTIVITY_NAME", name);
+                this.putAll(map);
             }
         });
         this.createLayoutFile(name, layoutName, androidFacet, psiManager, fileTemplateManager);

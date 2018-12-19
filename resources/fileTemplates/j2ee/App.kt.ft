@@ -5,6 +5,7 @@ import android.app.Application
 import ${ROOT_NAME}.components.DaggerAppComponent
 import dagger.android.DispatchingAndroidInjector
 import dagger.android.HasDispatchingActivityInjector
+import dagger.android.support.HasDispatchingSupportFragmentInjector
 import javax.inject.Inject
 
 #parse("File Header.java")
@@ -12,7 +13,10 @@ class App : Application(), HasDispatchingActivityInjector {
 
     //TODO REMINDER: register this class in AndroidManifest.xml
 
-    @Inject lateinit var dispatchingAndroidInjector: DispatchingAndroidInjector<Activity>
+    @Inject
+    lateinit var dispatchingAndroidInjector: DispatchingAndroidInjector<Activity>
+    @Inject
+    lateinit var dispatchingFragmentAndroidInjector: DispatchingAndroidInjector<Fragment>
 
     override fun onCreate() {
         super.onCreate()
@@ -26,4 +30,6 @@ class App : Application(), HasDispatchingActivityInjector {
     override fun activityInjector(): DispatchingAndroidInjector<Activity> {
         return dispatchingAndroidInjector
     }
+
+    override fun supportFragmentInjector(): DispatchingAndroidInjector<Fragment> = dispatchingFragmentAndroidInjector
 }

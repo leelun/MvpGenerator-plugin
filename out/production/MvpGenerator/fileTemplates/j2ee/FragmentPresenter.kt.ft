@@ -1,13 +1,13 @@
 package ${PACKAGE_NAME}
 
-import com.common.core.mvphelper.Presenter
+import ${COMMON_PACKAGE}.Presenter
 import javax.inject.Inject
 
 #parse("File Header.java")
 class ${FRAGMENT_NAME}FragmentPresenter @Inject constructor()
-    : Presenter<${FRAGMENT_NAME}FragmentContract.View>(), ${FRAGMENT_NAME}FragmentContract.Presenter {
+    : Presenter<${FRAGMENT_NAME}FragmentContract.I${FRAGMENT_NAME}View>(), ${FRAGMENT_NAME}FragmentContract.I${FRAGMENT_NAME}Presenter {
 
-    override fun onViewAttached(view: ${FRAGMENT_NAME}FragmentContract.View, created: Boolean) {
+    override fun onViewAttached(view: ${FRAGMENT_NAME}FragmentContract.I${FRAGMENT_NAME}View, created: Boolean) {
         super.onViewAttached(view, created)
     }
 

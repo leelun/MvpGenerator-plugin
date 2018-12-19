@@ -1,0 +1,21 @@
+package ${PACKAGE_NAME}
+
+import com.common.core.mvphelper.Presenter
+import javax.inject.Inject
+
+#parse("File Header.java")
+class ${ACTIVITY_NAME}ActivityPresenter @Inject constructor()
+    : Presenter<${ACTIVITY_NAME}ActivityContract.IView>(), ${ACTIVITY_NAME}ActivityContract.Presenter {
+
+    override fun onViewAttached(iview: ${ACTIVITY_NAME}ActivityContract.IView, created: Boolean) {
+        super.onViewAttached(iview, created)
+    }
+
+    override fun onViewDetached() {
+        super.onViewDetached()
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+    }
+}

@@ -1,0 +1,15 @@
+package ${PACKAGE_NAME}
+
+import com.common.core.mvphelper.IPresenter
+
+#parse("File Header.java")
+interface ${ACTIVITY_NAME}ActivityContract {
+
+    interface IView {
+
+    }
+
+    interface Presenter : IPresenter<IView> {
+
+    }
+}

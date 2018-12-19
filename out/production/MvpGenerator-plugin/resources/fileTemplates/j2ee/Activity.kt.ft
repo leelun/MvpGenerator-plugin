@@ -1,0 +1,12 @@
+package ${PACKAGE_NAME}
+
+import ${PROJECT_PACKAGE}.R
+import gauges.mobile.github.com.mvpapplication.base.DefaultActivity
+
+#parse("File Header.java")
+class ${ACTIVITY_NAME}Activity : DefaultActivity<${ACTIVITY_NAME}ActivityContract.Presenter, ${ACTIVITY_NAME}ActivityContract.IView>(),
+        ${ACTIVITY_NAME}ActivityContract.IView {
+
+    override fun getLayoutId(): Int = R.layout.${LAYOUT_NAME}
+
+}
