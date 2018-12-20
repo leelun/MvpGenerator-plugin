@@ -1,0 +1,26 @@
+package ${PACKAGE_NAME};
+
+import android.support.v4.app.Fragment;
+import dagger.Binds;
+import dagger.Subcomponent;
+import dagger.android.AndroidInjector;
+import dagger.android.support.FragmentKey;
+import dagger.multibindings.IntoMap;
+
+#parse("File Header.java")
+@Subcomponent(modules = {${FRAGMENT_NAME}FragmentModule.class})
+public interface ${FRAGMENT_NAME}FragmentSubComponent extends AndroidInjector<${FRAGMENT_NAME}Fragment> {
+
+    @Subcomponent.Builder
+    abstract class Builder extends AndroidInjector.Builder<${FRAGMENT_NAME}Fragment>{}
+
+    //TODO REMINDER: move the line below to FragmentsInjectorFactories's @Module(...) annotation
+    //${FRAGMENT_NAME}FragmentSubComponent.class
+
+    //TODO REMINDER: move this to FragmentsInjectorFactories module
+    @Binds
+    @IntoMap
+    @FragmentKey(${FRAGMENT_NAME}Fragment.class)
+    public abstract AndroidInjector.Factory<? extends Fragment> bind${FRAGMENT_NAME}FragmentInjectorFactory(${FRAGMENT_NAME}FragmentSubComponent.Builder builder);
+
+}

@@ -7,29 +7,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21c49fe8-a6c7-4f64-b67b-d98f9efa2d95" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/MvpGeneratorManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MvpGenerator/META-INF/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateKotlinMvpActivityAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateKotlinMvpActivityAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/FileTemplateProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/FileTemplateProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/fileTemplates/j2ee/Activity.kt.ft" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MvpGenerator/fileTemplates/j2ee/Activity.kt.ft" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/fileTemplates/j2ee/layout_activity.xml.ft" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MvpGenerator/fileTemplates/j2ee/layout_activity.xml.ft" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/fileTemplates/j2ee/layout_fragment.xml.ft" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MvpGenerator/fileTemplates/j2ee/layout_fragment.xml.ft" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateKotlinDIBaseClassesAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateKotlinMvpActivityAction$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateKotlinMvpActivityAction$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateKotlinMvpActivityAction$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateKotlinMvpActivityAction$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateKotlinMvpActivityAction$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateKotlinMvpActivityAction$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateKotlinMvpActivityAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateKotlinMvpFragmentAction$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateKotlinMvpFragmentAction$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateKotlinMvpFragmentAction$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateKotlinMvpFragmentAction$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateKotlinMvpFragmentAction$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateKotlinMvpFragmentAction$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateKotlinMvpFragmentAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/fileTemplates/j2ee/ActivitiesInjectorFactories.kt.ft" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/fileTemplates/j2ee/Activity.kt.ft" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/fileTemplates/j2ee/ActivityContract.kt.ft" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/fileTemplates/j2ee/ActivityModule.kt.ft" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/fileTemplates/j2ee/ActivityPresenter.kt.ft" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/fileTemplates/j2ee/ActivitySubComponent.kt.ft" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/fileTemplates/j2ee/App.kt.ft" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/fileTemplates/j2ee/AppComponent.kt.ft" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/fileTemplates/j2ee/AppModule.kt.ft" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/fileTemplates/j2ee/Fragment.kt.ft" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/fileTemplates/j2ee/FragmentContract.kt.ft" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/fileTemplates/j2ee/FragmentModule.kt.ft" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/fileTemplates/j2ee/FragmentPresenter.kt.ft" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/fileTemplates/j2ee/FragmentSubComponent.kt.ft" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/fileTemplates/j2ee/FragmentsInjectorFactories.kt.ft" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/META-INF/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fileTemplates/j2ee/Activity.kt.ft" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/Activity.kt.ft" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityContract.kt.ft" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityContract.kt.ft" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityModule.kt.ft" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityModule.kt.ft" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityPresenter.kt.ft" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityPresenter.kt.ft" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fileTemplates/j2ee/App.kt.ft" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/App.kt.ft" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fileTemplates/j2ee/Fragment.kt.ft" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/Fragment.kt.ft" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentContract.kt.ft" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentContract.kt.ft" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentModule.kt.ft" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentModule.kt.ft" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentPresenter.kt.ft" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentPresenter.kt.ft" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentSubComponent.kt.ft" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentSubComponent.kt.ft" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateKotlinMvpActivityAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateKotlinMvpActivityAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateKotlinMvpFragmentAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateKotlinMvpFragmentAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/FileTemplateProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/FileTemplateProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivitiesInjectorFactories.kt.ft" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivitiesInjectorFactories.java.ft" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/fileTemplates/j2ee/Activity.kt.ft" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/Activity.java.ft" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityContract.kt.ft" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityContract.java.ft" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityModule.kt.ft" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityModule.java.ft" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityPresenter.kt.ft" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityPresenter.java.ft" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivitySubComponent.kt.ft" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivitySubComponent.java.ft" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/fileTemplates/j2ee/App.kt.ft" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/App.java.ft" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/fileTemplates/j2ee/AppComponent.kt.ft" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/AppComponent.java.ft" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/fileTemplates/j2ee/AppModule.kt.ft" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/AppModule.java.ft" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/fileTemplates/j2ee/Fragment.kt.ft" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/Fragment.java.ft" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentContract.kt.ft" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentContract.java.ft" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentModule.kt.ft" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentModule.java.ft" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentPresenter.kt.ft" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentPresenter.java.ft" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentSubComponent.kt.ft" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentSubComponent.java.ft" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentsInjectorFactories.kt.ft" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentsInjectorFactories.java.ft" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateKotlinDIBaseClassesAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateJavaDIBaseClassesAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateKotlinMvpActivityAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateJavaMvpActivityAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateKotlinMvpFragmentAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateJavaMvpFragmentAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/MvpGeneratorManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/MvpGeneratorManager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,80 +71,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ActivitySubComponent.kt.ft" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivitySubComponent.kt.ft">
+      <file leaf-file-name="CreateJavaMvpFragmentAction.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateJavaMvpFragmentAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-76">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="110">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
               <folding>
-                <element signature="e#25#207#0#kotlin" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActivitiesInjectorFactories.kt.ft" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivitiesInjectorFactories.kt.ft">
+      <file leaf-file-name="FileTemplateUtil.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/ide/fileTemplates/FileTemplateUtil.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="185" column="25" selection-start-line="185" selection-start-column="25" selection-end-line="185" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plugin.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppComponent.kt.ft" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/AppComponent.kt.ft">
+      <file leaf-file-name="ActivitiesInjectorFactories.java.ft" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivitiesInjectorFactories.java.ft">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="152">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FragmentsInjectorFactories.java.ft" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentsInjectorFactories.java.ft">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FragmentSubComponent.java.ft" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentSubComponent.java.ft">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
               <folding>
-                <element signature="e#25#343#0#kotlin" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FragmentSubComponent.kt.ft" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentSubComponent.kt.ft">
+      <file leaf-file-name="CreateJavaMvpActivityAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateJavaMvpActivityAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-              <folding>
-                <element signature="e#25#207#0#kotlin" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Fragment.kt.ft" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/Fragment.kt.ft">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
-              <folding>
-                <element signature="e#25#96#0#kotlin" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.kt.ft" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/App.kt.ft">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="31" column="117" selection-start-line="31" selection-start-column="117" selection-end-line="31" selection-end-column="117" />
-              <folding>
-                <element signature="e#25#262#0#kotlin" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateKotlinMvpFragmentAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateKotlinMvpFragmentAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="140" column="92" selection-start-line="140" selection-start-column="92" selection-end-line="140" selection-end-column="92" />
+            <state relative-caret-position="116">
+              <caret line="115" column="13" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,33 +146,44 @@
       <file leaf-file-name="MvpGeneratorManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/MvpGeneratorManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="53" />
+            <state relative-caret-position="80">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1488#1489#0" expanded="true" />
-                <element signature="e#1548#1549#0" expanded="true" />
+                <element signature="e#1530#1531#0" expanded="true" />
+                <element signature="e#1590#1591#0" expanded="true" />
+                <element signature="e#1639#1640#0" expanded="true" />
+                <element signature="e#1706#1707#0" expanded="true" />
+                <element signature="e#1755#1756#0" expanded="true" />
+                <element signature="e#1822#1823#0" expanded="true" />
+                <element signature="e#1878#1879#0" expanded="true" />
+                <element signature="e#1954#1955#0" expanded="true" />
+                <element signature="e#2009#2010#0" expanded="true" />
+                <element signature="e#2085#2086#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FragmentContract.kt.ft" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentContract.kt.ft">
+      <file leaf-file-name="ActivitySubComponent.java.ft" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivitySubComponent.java.ft">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="342">
+              <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FragmentPresenter.kt.ft" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentPresenter.kt.ft">
+      <file leaf-file-name="App.java.ft" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/App.java.ft">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="265">
+              <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
               <folding>
-                <element signature="e#25#94#0#kotlin" expanded="true" />
+                <element signature="e#1063#1064#0#JAVA" expanded="true" />
+                <element signature="e#1106#1107#0#JAVA" expanded="true" />
+                <element signature="e#1182#1183#0#JAVA" expanded="true" />
+                <element signature="e#1233#1234#0#JAVA" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -184,7 +216,18 @@
       <find>create</find>
       <find>create(</find>
       <find>gauges.mobile.github.com.mvpapplication.base</find>
+      <find>&quot;di&quot;</find>
+      <find>&quot;components&quot;</find>
+      <find>.kt</find>
+      <find>::</find>
     </findStrings>
+    <replaceStrings>
+      <replace>NAME_DIR_ROOT</replace>
+      <replace>NAME_DIR_COMPONENTS</replace>
+      <replace>.java</replace>
+      <replace>java</replace>
+      <replace>.</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -199,9 +242,7 @@
         <option value="$PROJECT_DIR$/resources/fileTemplates/j2ee/layout_fragment.xml.ft" />
         <option value="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/FileTemplateProvider.java" />
         <option value="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/MyComponent.java" />
-        <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
         <option value="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/MvpGeneratorProperties.java" />
-        <option value="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/MvpGeneratorManager.java" />
         <option value="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateKotlinMvpActivityAction.java" />
         <option value="$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityContract.kt.ft" />
         <option value="$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityPresenter.kt.ft" />
@@ -214,6 +255,26 @@
         <option value="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentSubComponent.kt.ft" />
         <option value="$PROJECT_DIR$/resources/fileTemplates/j2ee/Fragment.kt.ft" />
         <option value="$PROJECT_DIR$/resources/fileTemplates/j2ee/App.kt.ft" />
+        <option value="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateJavaMvpActivityAction.java" />
+        <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
+        <option value="$PROJECT_DIR$/resources/fileTemplates/j2ee/Activity.java.ft" />
+        <option value="$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityModule.java.ft" />
+        <option value="$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityPresenter.java.ft" />
+        <option value="$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityContract.java.ft" />
+        <option value="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateJavaDIBaseClassesAction.java" />
+        <option value="$PROJECT_DIR$/resources/fileTemplates/j2ee/Fragment.java.ft" />
+        <option value="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentContract.java.ft" />
+        <option value="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentModule.java.ft" />
+        <option value="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentPresenter.java.ft" />
+        <option value="$PROJECT_DIR$/resources/fileTemplates/j2ee/AppModule.java.ft" />
+        <option value="$PROJECT_DIR$/resources/fileTemplates/j2ee/AppComponent.java.ft" />
+        <option value="$PROJECT_DIR$/resources/fileTemplates/j2ee/App.java.ft" />
+        <option value="$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivitySubComponent.java.ft" />
+        <option value="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentSubComponent.java.ft" />
+        <option value="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentsInjectorFactories.java.ft" />
+        <option value="$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivitiesInjectorFactories.java.ft" />
+        <option value="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/MvpGeneratorManager.java" />
+        <option value="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateJavaMvpFragmentAction.java" />
       </list>
     </option>
   </component>
@@ -244,6 +305,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -265,6 +328,12 @@
             <path>
               <item name="MvpGenerator-plugin" type="b2602c69:ProjectViewProjectNode" />
               <item name="MvpGenerator-plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MvpGenerator-plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MvpGenerator-plugin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -277,7 +346,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -315,7 +383,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -334,14 +401,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\java\idea\MvpGenerator\resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\github\MvpGenerator-plugin\resources\fileTemplates\j2ee" />
       <recent name="G:\java\idea\MvpGenerator\resources" />
       <recent name="G:\java\idea\MvpGenerator" />
       <recent name="G:\java\idea\MvpGenerator\src\com\stfalcon\mvpgenerator" />
       <recent name="G:\java\idea\MvpGenerator\src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\java\idea\MvpGenerator\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -437,11 +505,12 @@
       <workItem from="1541124946261" duration="860000" />
       <workItem from="1541556884664" duration="201000" />
       <workItem from="1545184788509" duration="13821000" />
+      <workItem from="1545270090519" duration="8359000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78611000" />
+    <option name="totallyTimeSpent" value="90687000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -461,32 +530,22 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32908705" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34348166" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35128805" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.2616179" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2616179" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Android Data Tools" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35130718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21858864" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32908705" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Android Data Tools" order="4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Android WiFi ADB" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,12 +562,6 @@
           <line>463</line>
           <properties />
           <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/MvpGeneratorManager.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="91" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="92" />
@@ -564,120 +617,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/openapi/project/impl/ProjectManagerImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4212">
-          <caret line="232" selection-start-line="232" selection-end-line="232" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/ide/fileTemplates/impl/FTManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2686">
-          <caret line="149" column="28" selection-start-line="149" selection-start-column="28" selection-end-line="149" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/ide/fileTemplates/impl/FileTemplateManagerImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3915">
-          <caret line="184" column="73" selection-start-line="184" selection-start-column="73" selection-end-line="184" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/ide/fileTemplates/impl/FileTemplatesLoader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3105">
-          <caret line="155" column="50" selection-start-line="155" selection-start-column="50" selection-end-line="155" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/DependenciesUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/layout_fragment.xml.ft">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/android/lib/android.jar!/org/jetbrains/android/dom/manifest/Application.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/openapi.jar!/com/intellij/util/xml/GenericDomValue.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/android/lib/android.jar!/org/jetbrains/android/dom/manifest/Activity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/Properties.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateKotlinDIBaseClassesAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/ide/fileTemplates/CreateFromTemplateHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="22" column="109" selection-start-line="22" selection-start-column="109" selection-end-line="22" selection-end-column="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/ide/fileTemplates/FileTemplateUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="260" column="29" selection-start-line="260" selection-start-column="29" selection-end-line="260" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentsInjectorFactories.kt.ft">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/actionSystem/AnActionEvent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2300">
-          <caret line="200" selection-start-line="200" selection-end-line="200" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/project/ProjectManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/ide/fileTemplates/FileTemplateManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-api.jar!/com/intellij/openapi/components/ProjectComponent.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62">
@@ -707,13 +646,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/MyComponent.java" />
-    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Properties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
@@ -777,15 +709,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/AppModule.kt.ft">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-58">
-          <folding>
-            <element signature="e#25#153#0#kotlin" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/AppModule.kt.ft" />
     <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/layout_activity.xml.ft">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -793,158 +717,199 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityPresenter.kt.ft">
+    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityPresenter.kt.ft" />
+    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityContract.kt.ft" />
+    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityModule.kt.ft" />
+    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/Activity.kt.ft" />
+    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentModule.kt.ft" />
+    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentContract.kt.ft" />
+    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivitySubComponent.kt.ft" />
+    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivitiesInjectorFactories.kt.ft" />
+    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/AppComponent.kt.ft" />
+    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentPresenter.kt.ft" />
+    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentSubComponent.kt.ft" />
+    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/Fragment.kt.ft" />
+    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/App.kt.ft" />
+    <entry file="file://$PROJECT_DIR$/MvpGenerator-plugin.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/Activity.java.ft">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#25#86#0#kotlin" expanded="true" />
-          </folding>
+        <state relative-caret-position="209">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityContract.kt.ft">
+    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityContract.java.ft">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding>
-            <element signature="e#25#96#0#kotlin" expanded="true" />
-          </folding>
+        <state relative-caret-position="228">
+          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityModule.kt.ft">
+    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityModule.java.ft">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="80" selection-start-line="13" selection-start-column="80" selection-end-line="13" selection-end-column="80" />
-          <folding>
-            <element signature="e#25#148#0#kotlin" expanded="true" />
-          </folding>
+        <state relative-caret-position="95">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/Activity.kt.ft">
+    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityPresenter.java.ft">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+          <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateJavaDIBaseClassesAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="48" column="174" selection-start-line="48" selection-start-column="174" selection-end-line="48" selection-end-column="174" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentContract.java.ft">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentModule.java.ft">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentPresenter.java.ft">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
           <folding>
-            <element signature="e#25#120#0#kotlin" expanded="true" />
+            <element signature="e#569#570#0#JAVA" expanded="true" />
+            <element signature="e#606#607#0#JAVA" expanded="true" />
+            <element signature="e#637#638#0#JAVA" expanded="true" />
+            <element signature="e#669#670#0#JAVA" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateKotlinMvpActivityAction.java">
+    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/AppModule.java.ft">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="93" selection-start-line="93" selection-end-line="93" selection-end-column="33" />
+        <state relative-caret-position="228">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/AppComponent.java.ft">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/Fragment.java.ft">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/App.java.ft">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding>
+            <element signature="e#1063#1064#0#JAVA" expanded="true" />
+            <element signature="e#1106#1107#0#JAVA" expanded="true" />
+            <element signature="e#1182#1183#0#JAVA" expanded="true" />
+            <element signature="e#1233#1234#0#JAVA" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentSubComponent.java.ft">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentModule.kt.ft">
+    <entry file="file://$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateJavaMvpActivityAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="80" selection-start-line="13" selection-start-column="80" selection-end-line="13" selection-end-column="80" />
+        <state relative-caret-position="116">
+          <caret line="115" column="13" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="13" />
           <folding>
-            <element signature="e#25#148#0#kotlin" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentContract.kt.ft">
+    <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="24" />
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivitySubComponent.kt.ft">
+    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentsInjectorFactories.java.ft">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#25#207#0#kotlin" expanded="true" />
-          </folding>
+        <state relative-caret-position="209">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivitiesInjectorFactories.kt.ft">
+    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivitySubComponent.java.ft">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="342">
+          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/AppComponent.kt.ft">
+    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivitiesInjectorFactories.java.ft">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="e#25#343#0#kotlin" expanded="true" />
-          </folding>
+        <state relative-caret-position="152">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/MvpGeneratorManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="53" />
+        <state relative-caret-position="80">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1488#1489#0" expanded="true" />
-            <element signature="e#1548#1549#0" expanded="true" />
+            <element signature="e#1530#1531#0" expanded="true" />
+            <element signature="e#1590#1591#0" expanded="true" />
+            <element signature="e#1639#1640#0" expanded="true" />
+            <element signature="e#1706#1707#0" expanded="true" />
+            <element signature="e#1755#1756#0" expanded="true" />
+            <element signature="e#1822#1823#0" expanded="true" />
+            <element signature="e#1878#1879#0" expanded="true" />
+            <element signature="e#1954#1955#0" expanded="true" />
+            <element signature="e#2009#2010#0" expanded="true" />
+            <element signature="e#2085#2086#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentPresenter.kt.ft">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/ide/fileTemplates/FileTemplateUtil.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="e#25#94#0#kotlin" expanded="true" />
-          </folding>
+        <state relative-caret-position="185">
+          <caret line="185" column="25" selection-start-line="185" selection-start-column="25" selection-end-line="185" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateKotlinMvpFragmentAction.java">
+    <entry file="file://$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateJavaMvpFragmentAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="140" column="92" selection-start-line="140" selection-start-column="92" selection-end-line="140" selection-end-column="92" />
+        <state relative-caret-position="110">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentSubComponent.kt.ft">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding>
-            <element signature="e#25#207#0#kotlin" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/Fragment.kt.ft">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="64" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
-          <folding>
-            <element signature="e#25#96#0#kotlin" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/App.kt.ft">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="31" column="117" selection-start-line="31" selection-start-column="117" selection-end-line="31" selection-end-column="117" />
-          <folding>
-            <element signature="e#25#262#0#kotlin" expanded="true" />
           </folding>
         </state>
       </provider>

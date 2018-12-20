@@ -1,0 +1,15 @@
+package ${PACKAGE_NAME};
+
+import ${COMMON_PACKAGE}.IPresenter;
+
+#parse("File Header.java")
+public interface ${FRAGMENT_NAME}FragmentContract {
+
+    interface I${FRAGMENT_NAME}View {
+
+    }
+
+    interface I${FRAGMENT_NAME}Presenter extends IPresenter<I${FRAGMENT_NAME}View> {
+
+    }
+}

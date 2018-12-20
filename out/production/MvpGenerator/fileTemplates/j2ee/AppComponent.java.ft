@@ -1,0 +1,31 @@
+package ${PACKAGE_NAME};
+
+import ${ROOT_NAME}.App;
+import ${ROOT_NAME}.factories.ActivitiesInjectorFactories;
+import ${ROOT_NAME}.factories.FragmentsInjectorFactories;
+import ${ROOT_NAME}.modules.AppModule;
+import dagger.BindsInstance;
+import dagger.Component;
+import dagger.android.support.AndroidSupportInjectionModule;
+import javax.inject.Singleton;
+
+#parse("File Header.java")
+@Singleton
+@Component(modules = {
+        AndroidSupportInjectionModule.class,
+        ActivitiesInjectorFactories.class,
+        FragmentsInjectorFactories.class,
+        AppModule.class
+        })
+public interface AppComponent {
+
+    @Component.Builder
+    interface Builder {
+        @BindsInstance
+        public  Builder application(App application);
+        public AppComponent build();
+    }
+
+    public void inject(App app);
+
+}

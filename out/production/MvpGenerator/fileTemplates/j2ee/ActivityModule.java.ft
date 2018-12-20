@@ -1,0 +1,16 @@
+package ${PACKAGE_NAME};
+
+import android.content.Context;
+import ${COMMON_PACKAGE}.PresenterLoader;
+import dagger.Module;
+import dagger.Provides;
+
+#parse("File Header.java")
+@Module
+public class ${ACTIVITY_NAME}ActivityModule {
+
+    @Provides
+    public PresenterLoader<${ACTIVITY_NAME}ActivityContract.I${ACTIVITY_NAME}Presenter> providePresenterLoader(Context context, ${ACTIVITY_NAME}ActivityPresenter presenter) {
+        return new PresenterLoader(context, presenter);
+    }
+}

@@ -1,0 +1,22 @@
+package ${PACKAGE_NAME};
+
+import ${COMMON_PACKAGE}.Presenter;
+import javax.inject.Inject;
+
+#parse("File Header.java")
+public class ${ACTIVITY_NAME}ActivityPresenter
+    extends Presenter<${ACTIVITY_NAME}ActivityContract.I${ACTIVITY_NAME}View> implements ${ACTIVITY_NAME}ActivityContract.I${ACTIVITY_NAME}Presenter {
+    @Inject
+    public ${ACTIVITY_NAME}ActivityPresenter(){}
+    public void onViewAttached(${ACTIVITY_NAME}ActivityContract.I${ACTIVITY_NAME}View iview,boolean created) {
+        super.onViewAttached(iview, created);
+    }
+
+    public void onViewDetached() {
+        super.onViewDetached();
+    }
+
+    public void onDestroy() {
+        super.onDestroy();
+    }
+}

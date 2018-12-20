@@ -1,0 +1,22 @@
+package ${PACKAGE_NAME};
+
+import ${COMMON_PACKAGE}.Presenter;
+import javax.inject.Inject;
+
+#parse("File Header.java")
+public class ${FRAGMENT_NAME}FragmentPresenter
+    extends Presenter<${FRAGMENT_NAME}FragmentContract.I${FRAGMENT_NAME}View> implements  ${FRAGMENT_NAME}FragmentContract.I${FRAGMENT_NAME}Presenter {
+    @Inject
+    public ${FRAGMENT_NAME}FragmentPresenter(){}
+    public void onViewAttached(${FRAGMENT_NAME}FragmentContract.I${FRAGMENT_NAME}View view,boolean created) {
+        super.onViewAttached(view, created);
+    }
+
+    public void onViewDetached() {
+        super.onViewDetached();
+    }
+
+    public void onDestroy() {
+        super.onDestroy();
+    }
+}

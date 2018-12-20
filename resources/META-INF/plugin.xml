@@ -1,6 +1,6 @@
 <idea-plugin>
-  <id>com.stfalcon.mvpgenerator</id>
-  <name>MVP Generator</name>
+  <id>com.newland.mvpgenerator</id>
+  <name>MVP Java Generator</name>
   <version>0.2.1</version>
   <vendor email="krol.oleksandr@stfalcon.com" url="http://www.stfalcon.com">stfalcon.com</vendor>
 
@@ -24,20 +24,20 @@
   </extensions>
   <actions>
     <!-- Add your actions here -->
-    <group id="com.stfalcon.mvpgenerator" text="MVP" popup="true" icon="AllIcons.General.Add">
+    <group id="com.newland.mvpgenerator" text="MVP FOR JAVA" popup="true" icon="AllIcons.General.Add">
       <add-to-group group-id="NewGroup" anchor="after" relative-to-action="NewDir"/>
 
-      <action id="com.stfalcon.mvpgenerator.CreateKotlinMvpActivityAction"
-              class="com.stfalcon.mvpgenerator.CreateKotlinMvpActivityAction"
-              text="MVP Kotlin Activity"/>
+      <action id="com.stfalcon.mvpgenerator.CreateJavaMvpActivityAction"
+              class="com.stfalcon.mvpgenerator.CreateJavaMvpActivityAction"
+              text="MVP Java Activity"/>
 
-      <action id="com.stfalcon.mvpgenerator.CreateKotlinMvpFragmentAction"
-              class="com.stfalcon.mvpgenerator.CreateKotlinMvpFragmentAction"
-              text="MVP Kotlin Fragment"/>
+      <action id="com.stfalcon.mvpgenerator.CreateJavaMvpFragmentAction"
+              class="com.stfalcon.mvpgenerator.CreateJavaMvpFragmentAction"
+              text="MVP Java Fragment"/>
 
-      <action id="com.stfalcon.mvpgenerator.CreateKotlinDIBaseClassesAction"
-              class="com.stfalcon.mvpgenerator.CreateKotlinDIBaseClassesAction"
-              text="Kotlin base DI classes"/>
+      <action id="com.stfalcon.mvpgenerator.CreateJavaDIBaseClassesAction"
+              class="com.stfalcon.mvpgenerator.CreateJavaDIBaseClassesAction"
+              text="Java base DI classes"/>
 
     </group>
   </actions>

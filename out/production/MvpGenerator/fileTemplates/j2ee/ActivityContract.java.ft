@@ -1,0 +1,16 @@
+package ${PACKAGE_NAME};
+
+import ${COMMON_PACKAGE}.IPresenter;
+import ${COMMON_PACKAGE}.IView;
+        
+#parse("File Header.java")
+public interface ${ACTIVITY_NAME}ActivityContract {
+
+    public interface I${ACTIVITY_NAME}View extends IView {
+
+    }
+
+    public interface I${ACTIVITY_NAME}Presenter extends IPresenter<I${ACTIVITY_NAME}View> {
+
+    }
+}
