@@ -17,6 +17,8 @@ import org.jetbrains.android.dom.manifest.Activity;
 import org.jetbrains.android.dom.manifest.Application;
 import org.jetbrains.android.facet.AndroidFacet;
 
+import javax.xml.parsers.SAXParserFactory;
+import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
@@ -26,6 +28,29 @@ public class CreateJavaMvpActivityAction extends AnAction {
 
     public CreateJavaMvpActivityAction() {
         super(AllIcons.FileTypes.Any_type);
+    }
+
+    private void test(Project project, PsiDirectory psiDirectory) {
+        Map<String, String> map = new HashMap<>();
+        map.put("ACTIVITY_NAME", "Main");
+        map.put("LAYOUT_NAME", "main");
+        map.put("PROJECT_PACKAGE", "com.common");
+        map.put("COMMON_PACKAGE", "com.package");
+        map.put("MVP_ACTIVITY_PACKAGE", "activity.package");
+        map.put("NAME", "Main");
+        Properties props = FileTemplateManager.getDefaultInstance().getDefaultProperties();
+        for (String key : props.stringPropertyNames()) {
+            System.out.println(key + " = " + props.get(key));
+        }
+        System.out.println("===========" + project.getBasePath());
+        props.putAll(map);
+
+        try {
+            FileTemplate template1 = FileTemplateManager.getDefaultInstance().getJ2eeTemplate("ActivityContract.java");
+            System.out.println(template1.getText(props));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public void actionPerformed(final AnActionEvent e) {
@@ -38,12 +63,12 @@ public class CreateJavaMvpActivityAction extends AnAction {
         if (module == null) {
             return;
         }
-        MvpGeneratorManager.getInstance().getProperties(module);
         final VirtualFile targetFile = CommonDataKeys.VIRTUAL_FILE.getData(dataContext);
         final PsiDirectory psiDirectory = FileUtils.validateSelectedDirectory(project, targetFile);
         if (psiDirectory == null) {
             return;
         }
+        test(project, psiDirectory);
         this.myCreator = new ElementCreator(module.getProject(), CommonBundle.getErrorTitle()) {
             protected PsiElement[] create(final String s) throws Exception {
                 CreateJavaMvpActivityAction.this.create(psiDirectory, s, module);
@@ -82,10 +107,10 @@ public class CreateJavaMvpActivityAction extends AnAction {
         final AndroidFacet androidFacet = AndroidFacet.getInstance(module);
         final PsiManager psiManager = PsiManager.getInstance(module.getProject());
         final String projectPackage = androidFacet.getManifest().getPackage().getXmlAttributeValue().getValue();
-        MvpGeneratorManager.GeneratorProperties mvpProperties=MvpGeneratorManager.getInstance().getProperties(module);
-        Map<String,String> map=new HashMap<>();
-        map.put("COMMON_PACKAGE",mvpProperties.getCommonPackage());
-        map.put("MVP_ACTIVITY_PACKAGE",mvpProperties.getMvpActivityPackage());
+        MvpGeneratorManager.GeneratorProperties mvpProperties = MvpGeneratorManager.getInstance().getProperties(module);
+        Map<String, String> map = new HashMap<>();
+        map.put("COMMON_PACKAGE", mvpProperties.getCommonPackage());
+        map.put("MVP_ACTIVITY_PACKAGE", mvpProperties.getMvpActivityPackage());
         this.createPsiClass(directory, activityName, fileTemplateManager, "Activity.java", new HashMap<String, String>() {
             {
                 this.put("ACTIVITY_NAME", name);
@@ -116,6 +141,22 @@ public class CreateJavaMvpActivityAction extends AnAction {
             {
                 this.put("ACTIVITY_NAME", name);
                 this.putAll(map);
+                Properties properties = fileTemplateManager.getDefaultProperties();
+                properties.put("ACTIVITY_NAME", name);
+                String bindMethodStr = "";
+                try {
+                    bindMethodStr = fileTemplateManager.getJ2eeTemplate("ActivityBindInjectMethod.java").getText(properties);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                String filepath = mvpProperties.getActivitiesInjectorFactory();
+                if (StringUtils.isEmpty(filepath) || !new File(filepath).exists()) {
+                    this.put("BIND_METHOD", bindMethodStr);
+                } else {
+                    String packageName = ProjectConfigurationManager.getInstance().getModuleConfigurable(module).getClassFilePackageName(directory.getVirtualFile().getPath());
+                    this.put("BIND_METHOD", "");
+                    InjectFactoryUtils.appendSubComponent(filepath, new String[]{packageName + "." + name + "Activity", packageName + "." + name + "ActivitySubComponent"}, name + "ActivitySubComponent.class", bindMethodStr);
+                }
             }
         });
         this.createLayoutFile(name, layoutName, androidFacet, psiManager, fileTemplateManager);
@@ -124,6 +165,7 @@ public class CreateJavaMvpActivityAction extends AnAction {
         final String activityClass = properties.getProperty("PACKAGE_NAME") + "." + activityName;
         this.registerActivity(androidFacet, activityClass);
     }
+
 
     private void createPsiClass(final PsiDirectory directory, final String name, final FileTemplateManager fileTemplateManager, final String templateName, final Map<String, String> properties) {
         final FileTemplate template = fileTemplateManager.getJ2eeTemplate(templateName);

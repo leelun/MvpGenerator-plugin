@@ -1,7 +1,6 @@
 package ${PACKAGE_NAME};
 
 import android.content.Context;
-import ${COMMON_PACKAGE}.PresenterLoader;
 import dagger.Module;
 import dagger.Provides;
 
@@ -10,7 +9,7 @@ import dagger.Provides;
 public class ${ACTIVITY_NAME}ActivityModule {
 
     @Provides
-    public PresenterLoader<${ACTIVITY_NAME}ActivityContract.I${ACTIVITY_NAME}Presenter> providePresenterLoader(Context context, ${ACTIVITY_NAME}ActivityPresenter presenter) {
-        return new PresenterLoader(context, presenter);
+    public ${ACTIVITY_NAME}ActivityContract.I${ACTIVITY_NAME}Presenter provide${ACTIVITY_NAME}Presenter() {
+        return new ${ACTIVITY_NAME}ActivityPresenter();
     }
 }

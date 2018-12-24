@@ -1,11 +1,15 @@
 package com.stfalcon.mvpgenerator;
 
-import com.intellij.ide.fileTemplates.*;
-import java.util.*;
-import com.intellij.openapi.project.*;
-import com.intellij.openapi.vfs.*;
-import com.intellij.psi.*;
-import com.intellij.openapi.ui.popup.*;
+import com.intellij.ide.fileTemplates.FileTemplateManager;
+import com.intellij.ide.fileTemplates.FileTemplateUtil;
+import com.intellij.openapi.project.Project;
+import com.intellij.openapi.ui.popup.JBPopupFactory;
+import com.intellij.openapi.vfs.VirtualFile;
+import com.intellij.psi.PsiDirectory;
+import com.intellij.psi.PsiFile;
+import com.intellij.psi.PsiManager;
+
+import java.util.Properties;
 
 public final class FileUtils
 {
@@ -36,4 +40,5 @@ public final class FileUtils
     private static void showError(final String text, final Project project) {
         JBPopupFactory.getInstance().createMessage(text).showCenteredInCurrentWindow(project);
     }
+
 }

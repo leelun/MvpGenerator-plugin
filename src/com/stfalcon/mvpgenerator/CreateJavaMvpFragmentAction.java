@@ -16,6 +16,7 @@ import com.intellij.psi.PsiElement;
 import com.intellij.psi.PsiManager;
 import org.jetbrains.android.facet.AndroidFacet;
 
+import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
@@ -115,6 +116,23 @@ public class CreateJavaMvpFragmentAction extends AnAction
             {
                 this.put("FRAGMENT_NAME", name);
                 this.putAll(map);
+
+                Properties properties = fileTemplateManager.getDefaultProperties();
+                properties.put("FRAGMENT_NAME", name);
+                String bindMethodStr = "";
+                try {
+                    bindMethodStr = fileTemplateManager.getJ2eeTemplate("FragmentBindInjectMethod.java").getText(properties);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                String filepath = mvpProperties.getFragmentsInjectorFactory();
+                if (StringUtils.isEmpty(filepath) || !new File(filepath).exists()) {
+                    this.put("BIND_METHOD", bindMethodStr);
+                } else {
+                    String packageName = ProjectConfigurationManager.getInstance().getModuleConfigurable(module).getClassFilePackageName(directory.getVirtualFile().getPath());
+                    this.put("BIND_METHOD", "");
+                    InjectFactoryUtils.appendSubComponent(filepath, new String[]{packageName + "." + name + "Fragment", packageName + "." + name + "FragmentSubComponent"}, name + "FragmentSubComponent.class", bindMethodStr);
+                }
             }
         });
         this.createLayoutFile(name, layoutName, androidFacet, psiManager, fileTemplateManager);

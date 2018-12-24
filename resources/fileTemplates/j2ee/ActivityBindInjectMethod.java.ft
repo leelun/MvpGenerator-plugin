@@ -1,0 +1,5 @@
+  @Binds
+  @IntoMap
+  @ActivityKey(${ACTIVITY_NAME}Activity.class)
+  public abstract AndroidInjector.Factory<? extends Activity> bind${ACTIVITY_NAME}ActivityInjectorFactory(
+                ${ACTIVITY_NAME}ActivitySubComponent.Builder builder);

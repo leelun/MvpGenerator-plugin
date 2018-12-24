@@ -16,11 +16,6 @@ public interface ${ACTIVITY_NAME}ActivitySubComponent extends AndroidInjector<${
 
     //TODO REMINDER: move the line below to AppModule's @Module(...) annotation
     //${ACTIVITY_NAME}ActivitySubComponent.class
-
     //TODO REMINDER: move this to ActivitiesInjectorFactories module
-    @Binds
-    @IntoMap
-    @ActivityKey(${ACTIVITY_NAME}Activity.class)
-    public abstract AndroidInjector.Factory<? extends Activity> bind${ACTIVITY_NAME}ActivityInjectorFactory(
-                ${ACTIVITY_NAME}ActivitySubComponent.Builder builder);
+    ${BIND_METHOD}
 }
