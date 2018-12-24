@@ -1,0 +1,4 @@
+  @Binds
+  @IntoMap
+  @FragmentKey(${FRAGMENT_NAME}Fragment.class)
+  public abstract AndroidInjector.Factory<? extends Fragment> bind${FRAGMENT_NAME}FragmentInjectorFactory(${FRAGMENT_NAME}FragmentSubComponent.Builder builder);
