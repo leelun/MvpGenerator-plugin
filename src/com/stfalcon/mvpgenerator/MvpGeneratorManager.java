@@ -5,6 +5,8 @@ import com.intellij.openapi.module.Module;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Properties;
 
 public class MvpGeneratorManager {
@@ -48,6 +50,8 @@ public class MvpGeneratorManager {
         private static final String MVP_FRAGMENT_PACKAGE = "mvp.fragment.package";
         private static final String ACTIVITY_INJECTOR_FACTORY_FILE = "activity.injector.factory.file";
         private static final String FRAGMENT_INJECTOR_FACTORY_FILE = "fragment.injector.factory.file";
+        private static final String MANIFEST_ACTIVITY_TAG_ATTRS = "manifest.activity.tag.attrs";
+        private static final String LAYOUT_FOLDERS = "layout.folders";
 
         public String getCommonPackage() {
             return getProperty(MVP_HELPER_PACKAGE);
@@ -59,6 +63,28 @@ public class MvpGeneratorManager {
 
         public String getMvpFragmentPackage() {
             return getProperty(MVP_FRAGMENT_PACKAGE);
+        }
+
+        public Map<String, String> getManifestActivityTagAttrs() {
+            Map<String, String> map = new HashMap<>();
+            if (containsKey(MANIFEST_ACTIVITY_TAG_ATTRS)) {
+                String attrString = getProperty(MANIFEST_ACTIVITY_TAG_ATTRS);
+                attrString = attrString.replaceAll("\\s", "");
+                attrString = attrString.replaceAll("(\\[)([^\\]]+)(\\])", "$2");
+                String[] attrs = attrString.split(",");
+                for (String attr : attrs) {
+                    String[] kv = attr.split("=");
+                    map.put(kv[0], kv[1]);
+                }
+            }
+            return map;
+        }
+
+        public String[] getLayoutFolders() {
+            if (containsKey(LAYOUT_FOLDERS)) {
+                return getProperty(LAYOUT_FOLDERS).split(",");
+            }
+            return new String[]{"layout"};
         }
 
         public String getProjectPath() {

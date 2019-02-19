@@ -17,7 +17,6 @@ import org.jetbrains.android.dom.manifest.Activity;
 import org.jetbrains.android.dom.manifest.Application;
 import org.jetbrains.android.facet.AndroidFacet;
 
-import javax.xml.parsers.SAXParserFactory;
 import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
@@ -159,11 +158,11 @@ public class CreateJavaMvpActivityAction extends AnAction {
                 }
             }
         });
-        this.createLayoutFile(name, layoutName, androidFacet, psiManager, fileTemplateManager);
+        this.createLayoutFile(name, layoutName, androidFacet, psiManager, fileTemplateManager, mvpProperties);
         final Properties properties = fileTemplateManager.getDefaultProperties();
         FileTemplateUtil.fillDefaultProperties(properties, directory);
         final String activityClass = properties.getProperty("PACKAGE_NAME") + "." + activityName;
-        this.registerActivity(androidFacet, activityClass);
+        this.registerActivity(androidFacet, activityClass, mvpProperties);
     }
 
 
@@ -178,27 +177,35 @@ public class CreateJavaMvpActivityAction extends AnAction {
         }
     }
 
-    private void createLayoutFile(final String name, final String layoutName, final AndroidFacet androidFacet, final PsiManager psiManager, final FileTemplateManager fileTemplateManager) {
+    private void createLayoutFile(final String name, final String layoutName, final AndroidFacet androidFacet, final PsiManager psiManager, final FileTemplateManager fileTemplateManager, MvpGeneratorManager.GeneratorProperties mvpProperties) {
         final VirtualFile resFolder = androidFacet.getAllResourceDirectories().get(0);
         if (resFolder != null) {
-            try {
-                VirtualFile layoutFolder = resFolder.findChild("layout");
-                if (layoutFolder == null) {
-                    layoutFolder = resFolder.createChildDirectory((Object) this, "layout");
+            String[] layouts = mvpProperties.getLayoutFolders();
+            for (String layout : layouts) {
+                try {
+                    VirtualFile layoutFolder = resFolder.findChild(layout);
+                    if (layoutFolder == null) {
+                        layoutFolder = resFolder.createChildDirectory((Object) this, layout);
+                    }
+                    final FileTemplate template = fileTemplateManager.getJ2eeTemplate("layout_activity.xml");
+                    final Properties props = fileTemplateManager.getDefaultProperties();
+                    FileTemplateUtil.createFromTemplate(template, layoutName, props, psiManager.findDirectory(layoutFolder));
+                } catch (Exception e) {
+                    throw new RuntimeException("Unable to create " + layout + " for " + name + "Activity " + e.getMessage(), e);
                 }
-                final FileTemplate template = fileTemplateManager.getJ2eeTemplate("layout_activity.xml");
-                final Properties props = fileTemplateManager.getDefaultProperties();
-                FileTemplateUtil.createFromTemplate(template, layoutName, props, psiManager.findDirectory(layoutFolder));
-            } catch (Exception e) {
-                throw new RuntimeException("Unable to create layout for " + name + "Activity", e);
             }
+
         }
     }
 
-    private void registerActivity(final AndroidFacet androidFacet, final String activityClass) {
+    private void registerActivity(final AndroidFacet androidFacet, final String activityClass, MvpGeneratorManager.GeneratorProperties mvpProperties) {
         final Application application = androidFacet.getManifest().getApplication();
         final Activity activity = application.addActivity();
         activity.getActivityClass().setStringValue(activityClass);
         activity.getExported().setStringValue("false");
+        Map<String, String> attrs = mvpProperties.getManifestActivityTagAttrs();
+        for (String key : attrs.keySet()) {
+            activity.getXmlTag().setAttribute(key, attrs.get(key));
+        }
     }
 }

@@ -7,11 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21c49fe8-a6c7-4f64-b67b-d98f9efa2d95" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityBindInjectMethod.java.ft" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentBindInjectMethod.java.ft" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/InjectFactoryUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/ProjectConfigurationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MvpGenerator.jar" beforeDir="false" afterPath="$PROJECT_DIR$/MvpGenerator.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MvpGenerator.zip" beforeDir="false" afterPath="$PROJECT_DIR$/MvpGenerator.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateJavaMvpActivityAction$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateJavaMvpActivityAction$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateJavaMvpActivityAction$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateJavaMvpActivityAction$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateJavaMvpActivityAction$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateJavaMvpActivityAction$3.class" afterDir="false" />
@@ -19,22 +17,18 @@
       <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateJavaMvpActivityAction$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateJavaMvpActivityAction$5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateJavaMvpActivityAction$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateJavaMvpActivityAction$6.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateJavaMvpActivityAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateJavaMvpActivityAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/FileUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/FileUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateJavaMvpFragmentAction$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateJavaMvpFragmentAction$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateJavaMvpFragmentAction$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateJavaMvpFragmentAction$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateJavaMvpFragmentAction$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateJavaMvpFragmentAction$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateJavaMvpFragmentAction$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateJavaMvpFragmentAction$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateJavaMvpFragmentAction$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateJavaMvpFragmentAction$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateJavaMvpFragmentAction$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateJavaMvpFragmentAction$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateJavaMvpFragmentAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/CreateJavaMvpFragmentAction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/MvpGeneratorManager$GeneratorProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/MvpGeneratorManager$GeneratorProperties.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/MvpGeneratorManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/MvpGeneratorManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/StringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MvpGenerator/com/stfalcon/mvpgenerator/StringUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/fileTemplates/j2ee/ActivityModule.java.ft" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MvpGenerator/fileTemplates/j2ee/ActivityModule.java.ft" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/fileTemplates/j2ee/ActivitySubComponent.java.ft" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MvpGenerator/fileTemplates/j2ee/ActivitySubComponent.java.ft" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MvpGenerator/fileTemplates/j2ee/FragmentModule.java.ft" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MvpGenerator/fileTemplates/j2ee/FragmentModule.java.ft" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityModule.java.ft" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityModule.java.ft" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivitySubComponent.java.ft" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivitySubComponent.java.ft" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentModule.java.ft" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentModule.java.ft" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentSubComponent.java.ft" beforeDir="false" afterPath="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentSubComponent.java.ft" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateJavaMvpActivityAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateJavaMvpActivityAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateJavaMvpFragmentAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateJavaMvpFragmentAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/FileUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/MvpGeneratorManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/MvpGeneratorManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/StringUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,11 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CreateJavaMvpActivityAction.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CreateJavaMvpActivityAction.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateJavaMvpActivityAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="166" column="5" selection-start-line="166" selection-start-column="5" selection-end-line="166" selection-end-column="5" />
+            <state relative-caret-position="101">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActivitySubComponent.java.ft" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivitySubComponent.java.ft">
+      <file leaf-file-name="ApplicationComponent.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/android/lib/android.jar!/org/jetbrains/android/dom/manifest/ApplicationComponent.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="18" />
+            <state relative-caret-position="285">
+              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -70,8 +64,8 @@
       <file leaf-file-name="CreateJavaMvpFragmentAction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateJavaMvpFragmentAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="127" column="77" selection-start-line="127" selection-start-column="77" selection-end-line="127" selection-end-column="77" />
+            <state relative-caret-position="154">
+              <caret line="158" column="91" selection-start-line="158" selection-start-column="91" selection-end-line="158" selection-end-column="91" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,14 +73,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FragmentBindInjectMethod.java.ft" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentBindInjectMethod.java.ft">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="ActivityBindInjectMethod.java.ft" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityBindInjectMethod.java.ft">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="MetaData.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/android/lib/android.jar!/org/jetbrains/android/dom/manifest/MetaData.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="FragmentSubComponent.java.ft" pinned="false" current-in-tab="false">
@@ -107,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MvpGeneratorManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MvpGeneratorManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/MvpGeneratorManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="74" column="41" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
+            <state relative-caret-position="192">
+              <caret line="84" selection-start-line="84" selection-end-line="84" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2501#2502#0" expanded="true" />
@@ -121,11 +114,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.iml">
+      <file leaf-file-name="FocusManagerImpl.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/openapi/wm/impl/FocusManagerImpl.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="29" column="44" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="44" />
+            <state relative-caret-position="288">
+              <caret line="355" selection-start-line="355" selection-end-line="355" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransactionGuardImpl.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/openapi/application/TransactionGuardImpl.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="85" selection-start-line="85" selection-end-line="85" />
             </state>
           </provider>
         </entry>
@@ -133,7 +135,7 @@
       <file leaf-file-name="InjectFactoryUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/InjectFactoryUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="304">
               <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -175,6 +177,7 @@
       <find>::</find>
       <find>PACKAGE_NAME</find>
       <find>getFragmentsInjectorFactory</find>
+      <find>createLayoutFile</find>
     </findStrings>
     <replaceStrings>
       <replace>NAME_DIR_ROOT</replace>
@@ -230,14 +233,14 @@
         <option value="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentModule.java.ft" />
         <option value="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/ModuleInventoryHandler.java" />
         <option value="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/ProjectConfigurationManager.java" />
-        <option value="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateJavaMvpFragmentAction.java" />
         <option value="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentBindInjectMethod.java.ft" />
         <option value="$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityBindInjectMethod.java.ft" />
         <option value="$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivitySubComponent.java.ft" />
         <option value="$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentSubComponent.java.ft" />
-        <option value="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateJavaMvpActivityAction.java" />
         <option value="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/InjectFactoryUtils.java" />
         <option value="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/MvpGeneratorManager.java" />
+        <option value="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateJavaMvpFragmentAction.java" />
+        <option value="$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateJavaMvpActivityAction.java" />
       </list>
     </option>
   </component>
@@ -258,8 +261,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
     <option name="width" value="1890" />
     <option name="height" value="930" />
   </component>
@@ -268,7 +271,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -306,6 +308,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -317,12 +320,6 @@
               <item name="MvpGenerator-plugin" type="b2602c69:ProjectViewProjectNode" />
               <item name="MvpGenerator-plugin" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MvpGenerator-plugin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MvpGenerator-plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="j2ee" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MvpGenerator-plugin" type="b2602c69:ProjectViewProjectNode" />
@@ -415,7 +412,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -573,12 +570,13 @@
       <workItem from="1545184788509" duration="13821000" />
       <workItem from="1545270090519" duration="13569000" />
       <workItem from="1545355827216" duration="16329000" />
-      <workItem from="1545615323680" duration="7761000" />
+      <workItem from="1545615323680" duration="8423000" />
+      <workItem from="1545704995354" duration="6788000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119987000" />
+    <option name="totallyTimeSpent" value="127437000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -598,7 +596,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32908705" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35128805" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35128805" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32874355" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -606,7 +604,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.47332186" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.26333907" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -632,18 +630,18 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.30997878" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35128805" />
       <window_info anchor="right" id="Android WiFi ADB" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35128805" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32874355" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47332186" />
     </layout-to-restore>
@@ -656,11 +654,35 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="106" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/MvpGeneratorManager.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/MvpGeneratorManager.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="110" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>MvpGeneratorManager.getInstance().getProperties(module).getLayoutFolders()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getProperty(LAYOUT_FOLDERS).split(&quot;,&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>mergedText</expression-string>
         <language-id>JAVA</language-id>
@@ -696,30 +718,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>ApplicationManager.getApplication().isHeadlessEnvironment()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>isConversionNeeded(projectPath)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/App.kt.ft" />
-    <entry file="file://$PROJECT_DIR$/MvpGenerator-plugin.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityPresenter.java.ft">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/FragmentContract.java.ft">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -780,13 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="11" column="30" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/openapi/wm/impl/FocusManagerImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="355" selection-start-line="355" selection-end-line="355" />
         </state>
       </provider>
     </entry>
@@ -894,16 +888,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ActivitiesInjectorFactories.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ActivitiesInjectorFactories.java" />
     <entry file="file://$PROJECT_DIR$/resources/fileTemplates/j2ee/ActivityContract.java.ft">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -915,9 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -925,9 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -952,20 +931,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/ModuleInventoryHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="17" selection-start-line="17" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/ModuleInventoryHandler.java" />
     <entry file="file://$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/FileUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1005,23 +971,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="58" column="76" selection-start-line="58" selection-start-column="76" selection-end-line="58" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1098#1099#0" expanded="true" />
-            <element signature="e#1151#1152#0" expanded="true" />
-            <element signature="e#1184#1185#0" expanded="true" />
-            <element signature="e#1237#1238#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateJavaMvpFragmentAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="127" column="77" selection-start-line="127" selection-start-column="77" selection-end-line="127" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1052,9 +1001,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/InjectFactoryUtils.java">
+    <entry file="file://$PROJECT_DIR$/app.iml" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/android/lib/android.jar!/org/jetbrains/android/dom/manifest/MetaData.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/android/lib/android.jar!/org/jetbrains/android/dom/manifest/ApplicationComponent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/InjectFactoryUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
           <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1062,31 +1026,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateJavaMvpActivityAction.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/openapi/application/TransactionGuardImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="166" column="5" selection-start-line="166" selection-start-column="5" selection-end-line="166" selection-end-column="5" />
+        <state relative-caret-position="134">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/com/intellij/openapi/wm/impl/FocusManagerImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="355" selection-start-line="355" selection-end-line="355" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateJavaMvpFragmentAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="158" column="91" selection-start-line="158" selection-start-column="91" selection-end-line="158" selection-end-column="91" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="29" column="44" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/MvpGeneratorManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="74" column="41" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
+        <state relative-caret-position="192">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2501#2502#0" expanded="true" />
             <element signature="e#2558#2559#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/stfalcon/mvpgenerator/CreateJavaMvpActivityAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
