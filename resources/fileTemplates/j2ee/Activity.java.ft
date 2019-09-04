@@ -1,10 +1,10 @@
 package ${PACKAGE_NAME};
 
 import ${PROJECT_PACKAGE}.R;
-import ${MVP_ACTIVITY_PACKAGE}.MvpActivity;
+import ${MVP_ACTIVITY_PACKAGE}.${MVP_ACTIVITY_NAME};
 
 #parse("File Header.java")
-public class ${ACTIVITY_NAME}Activity extends MvpActivity<${ACTIVITY_NAME}ActivityContract.I${ACTIVITY_NAME}Presenter, ${ACTIVITY_NAME}ActivityContract.I${ACTIVITY_NAME}View> implements
+public class ${ACTIVITY_NAME}Activity extends ${MVP_ACTIVITY_NAME}<${ACTIVITY_NAME}ActivityContract.I${ACTIVITY_NAME}Presenter, ${ACTIVITY_NAME}ActivityContract.I${ACTIVITY_NAME}View> implements
         ${ACTIVITY_NAME}ActivityContract.I${ACTIVITY_NAME}View {
     @Override
     public int  getLayoutId(){

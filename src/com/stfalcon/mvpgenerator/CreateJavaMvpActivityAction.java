@@ -110,6 +110,7 @@ public class CreateJavaMvpActivityAction extends AnAction {
         Map<String, String> map = new HashMap<>();
         map.put("COMMON_PACKAGE", mvpProperties.getCommonPackage());
         map.put("MVP_ACTIVITY_PACKAGE", mvpProperties.getMvpActivityPackage());
+        map.put("MVP_ACTIVITY_NAME", mvpProperties.getProperty(MvpGeneratorManager.GeneratorProperties.MVP_ACTIVITY_NAME));
         this.createPsiClass(directory, activityName, fileTemplateManager, "Activity.java", new HashMap<String, String>() {
             {
                 this.put("ACTIVITY_NAME", name);

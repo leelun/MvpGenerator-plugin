@@ -1,10 +1,10 @@
 package ${PACKAGE_NAME};
 
 import ${PROJECT_PACKAGE}.R;
-import ${MVP_FRAGMENT_PACKAGE}.MvpFragment;
+import ${MVP_FRAGMENT_PACKAGE}.${MVP_FRAGMENT_NAME};
 
 #parse("File Header.java")
-public class ${FRAGMENT_NAME}Fragment extends MvpFragment<${FRAGMENT_NAME}FragmentContract.I${FRAGMENT_NAME}Presenter , ${FRAGMENT_NAME}FragmentContract.I${FRAGMENT_NAME}View> implements
+public class ${FRAGMENT_NAME}Fragment extends ${MVP_FRAGMENT_NAME}<${FRAGMENT_NAME}FragmentContract.I${FRAGMENT_NAME}Presenter , ${FRAGMENT_NAME}FragmentContract.I${FRAGMENT_NAME}View> implements
         ${FRAGMENT_NAME}FragmentContract.I${FRAGMENT_NAME}View {
 
     public int getLayoutId(){

@@ -45,13 +45,15 @@ public class MvpGeneratorManager {
 
 
     public static class GeneratorProperties extends Properties {
-        private static final String MVP_HELPER_PACKAGE = "mvp.helper.package";
-        private static final String MVP_ACTIVITY_PACKAGE = "mvp.activity.package";
-        private static final String MVP_FRAGMENT_PACKAGE = "mvp.fragment.package";
-        private static final String ACTIVITY_INJECTOR_FACTORY_FILE = "activity.injector.factory.file";
-        private static final String FRAGMENT_INJECTOR_FACTORY_FILE = "fragment.injector.factory.file";
-        private static final String MANIFEST_ACTIVITY_TAG_ATTRS = "manifest.activity.tag.attrs";
-        private static final String LAYOUT_FOLDERS = "layout.folders";
+        public static final String MVP_HELPER_PACKAGE = "mvp.helper.package";
+        public static final String MVP_ACTIVITY_PACKAGE = "mvp.activity.package";
+        public static final String MVP_FRAGMENT_PACKAGE = "mvp.fragment.package";
+        public static final String MVP_ACTIVITY_NAME= "mvp.activity.name";
+        public static final String MVP_FRAGMENT_NAME = "mvp.fragment.name";
+        public static final String ACTIVITY_INJECTOR_FACTORY_FILE = "activity.injector.factory.file";
+        public static final String FRAGMENT_INJECTOR_FACTORY_FILE = "fragment.injector.factory.file";
+        public static final String MANIFEST_ACTIVITY_TAG_ATTRS = "manifest.activity.tag.attrs";
+        public static final String LAYOUT_FOLDERS = "layout.folders";
 
         public String getCommonPackage() {
             return getProperty(MVP_HELPER_PACKAGE);
